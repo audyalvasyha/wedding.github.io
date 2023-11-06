@@ -1,0 +1,32 @@
+.player {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.now-playing {
+  font-size: 1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.playpause-track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a9aba3;
+  border: 1px solid #1d3225;
+  border-radius: 50%;
+  position: fixed;
+  top: 85vh;
+  left: 8px;
+  z-index: 11;
+}
+.playpause-track span {
+  font-size: 3rem;
+}

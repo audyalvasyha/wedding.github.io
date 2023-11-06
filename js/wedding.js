@@ -88,3 +88,14 @@ let x = setInterval(function () {
     document.getElementById("time-countdown").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+function btnBuka() {
+  const cover = document.getElementsByClassName("cover")[0];
+
+  cover.style.top = "-1000px";
+  document.body.style.overflow = "scroll";
+}
+
+window.onbeforeunload = () => {
+  window.scrollTo(0, 0);
+}

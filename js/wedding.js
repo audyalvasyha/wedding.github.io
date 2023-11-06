@@ -58,7 +58,7 @@ function carousel() {
   setTimeout(carousel, 3000);
 }
 
-let cdt = new Date("Nov 11, 2023 09:00:00").getTime();
+let cdt = new Date("Nov 11, 2023 10:30:00").getTime();
 
 // Update the count down every 1 <second></second>
 let x = setInterval(function () {
@@ -88,25 +88,3 @@ let x = setInterval(function () {
     document.getElementById("time-countdown").innerHTML = "EXPIRED";
   }
 }, 1000);
-
-// const Wrapper = document.getElementById("Wrapper");
-// const json = {
-//   male: {
-//     mempelai: "Immanuel Kant",
-//     ayah: "Khalil Gibran",
-//     ibu: "Siti Nurbaya",
-//   },
-//   female: {
-//     mempelai: "Ada Lovelace",
-//     ayah: "Jhon Lenon",
-//     ibu: "Siti Fatimah",
-//   },
-// };
-// function getValueArray(dataJson) {
-//   return dataJson;
-// }
-// function coverContent() {
-//   const firstName = getValueArray(json).male;
-//   console.log(firstName);
-// }
-// coverContent();

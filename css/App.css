@@ -13,6 +13,7 @@
   color: var(--color-font);
   list-style-type: none;
 }
+body {margin: 0; height: 100%; overflow: hidden}
 p {
   font-family: "Agbalumo";
   font-size: 14px;
@@ -22,7 +23,6 @@ p {
 #Wrapper {
   height: max-content;
   overflow: hidden;
-}
 #Wrap {
   height: fit-content;
   background-color: #ebf6f8;
@@ -45,13 +45,18 @@ p {
 }
 
 .cover {
-  height: inherit;
-  background: url(/assets/IJP_9962.jpg);
-  opacity: 0.9;
+  background: url("../assets/IJP_0017.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
+  position: absolute;
+  z-index: 11111;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  transition: linear 1s;
 }
 .slideshow {
   width: inherit;
@@ -76,12 +81,15 @@ p {
   }
 }
 .contain {
-  margin: auto;
+  margin: auto auto 48px auto;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   top: -480px;
+}
+.contain span, h1, tr {
+  color: #fff;
 }
 .text-light,
 .time-list,
@@ -92,7 +100,6 @@ p {
   margin-top: 16px;
   font-weight: 600;
   background-color: #fff;
-  color: #1d3225;
   border: none;
   border-radius: 50px;
   outline: none;
@@ -100,6 +107,9 @@ p {
   align-items: center;
   padding: 4px 18px;
   gap: 8px;
+}
+#btnBukaUndangan span {
+  color: #1d3225;
 }
 .mempelai {
   font-family: "Dancing Script", cursive;

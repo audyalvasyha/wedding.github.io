@@ -17,7 +17,7 @@ let imageList = [
   "IJP_0016.jpg",
   "IJP_0017.jpg",
 ];
-const galeri = document.getElementsByClassName("galeri")[0];
+let galeri = document.getElementsByClassName("galeri")[0];
 imageList.map((imgs, i) => {
   // console.log(imgs);
 

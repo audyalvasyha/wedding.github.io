@@ -262,7 +262,7 @@ span {
 }
 
 /* Style Section Galeri */
-ul.galeri {
+.galeri {
   margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
@@ -270,13 +270,13 @@ ul.galeri {
   justify-content: center;
   gap: 1rem;
 }
-ul.galeri li {
+.galeri li {
   width: 100px;
   height: 150px;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-ul.galeri li img {
+.galeri li img {
   display: block;
   height: inherit;
   max-width: 100%;

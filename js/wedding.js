@@ -22,7 +22,7 @@ imageList.map((imgs, i) => {
   // console.log(imgs);
 
   if (i < 9) {
-    galeri.innerHTML += `<li onclick='zoom(this)'><img src='/assets/${imgs}'/></li>`;
+    galeri.innerHTML += `<li onclick='zoom(this)'><img src='assets/${imgs}'/></li>`;
   }
 });
 

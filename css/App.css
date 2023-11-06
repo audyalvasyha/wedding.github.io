@@ -157,7 +157,7 @@ span {
 }
 
 /* Thank Section Style */
-.thank-section .card {
+.card {
   margin: 50px auto;
   padding: 2rem 1rem;
   width: calc(100vw - 144px);
